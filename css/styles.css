@@ -41,9 +41,7 @@ img {
   width: 100%;
 }
 /*Header navigation start*/
-.flex-container {
-  display: flex;
-}
+
 .navigation {
   display: flex;
   align-items: center;
