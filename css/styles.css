@@ -52,6 +52,9 @@ img {
 .header-decoration {
   border-bottom: 1px solid #e7e9fc;
 }
+.header-decoration .container {
+  display: flex;
+}
 .navigation-link-logo {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -296,6 +299,7 @@ img {
 .footer {
   background: #2e2f42;
   height: 312px;
+  padding: 100px 0;
 }
 .footer-logo {
   text-transform: uppercase;
@@ -305,7 +309,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-  padding-top: 100px;
   display: inline-block;
   margin-bottom: 16px;
 }
