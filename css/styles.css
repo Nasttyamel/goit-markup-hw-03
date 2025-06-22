@@ -2,6 +2,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 a {
@@ -14,6 +16,13 @@ li {
   list-style-type: none;
 }
 
+.container {
+  max-width: 1128px;
+}
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 /*Header navigation start*/
 .navigation-link-logo {
   text-transform: uppercase;
@@ -71,6 +80,7 @@ li {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  max-width: 496px;
 }
 .hero-baner-button {
   color: white;
@@ -91,11 +101,26 @@ li {
 /*Section advantages start*/
 .advantages {
 }
-.advantages-title {
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 .advantages-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 8px;
 }
 .advantages-list-item {
+  gap: 24px;
 }
 .advantages-list-item-title {
   font-weight: 500;
@@ -125,12 +150,20 @@ li {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-left: 369px;
 }
 .team-list {
   background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 32px;
+  margin-left: 156px;
 }
 .team-list-item {
   background-color: #ffffff;
+  text-align: center;
 }
 .team-list-item-image {
 }
